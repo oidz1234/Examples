@@ -6,3 +6,9 @@ people might find useful
 ## Config
 
 Most stuff is configured by variables in the scripts, check before using!
+
+### Requirements
+
+* mouse_moove.py
+
+`pip install pyautogui`
