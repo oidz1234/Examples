@@ -12,3 +12,8 @@ Most stuff is configured by variables in the scripts, check before using!
 * mouse_moove.py
 
 `pip install pyautogui`
+
+
+## Endorsements
+
+* WoW these are great examples - Linux Torvolds
