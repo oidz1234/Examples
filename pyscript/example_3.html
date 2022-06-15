@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+
+<body>
+
+<h1> Hello </h1>
+
+  <div>Type an sample input here</div>
+  <input type="text" id="test-input"/>
+  <button id="submit-button" type="submit" style="margin-top: 10px;margin-bottom: 10px;"  class="btn btn-primary"  pys-onClick="print_word">OK</button>
+  <div id="test-output"></div>
+
+<py-script>
+def print_word(*args, **kwargs):
+    text = Element('test-input').element.value
+    Element('test-output').element.innerText = f"{text}"
+
+</py-script>
+
+
+</body>
+</html>
