@@ -1,3 +1,6 @@
+# You will need to coin_scraper from this repo: https://github.com/oidz1234/CoinScraper
+# also install autoscraper and playsound using pip :)
+
 from autoscraper import AutoScraper
 
 scraper = AutoScraper()
