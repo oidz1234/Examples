@@ -1,5 +1,6 @@
 # You will need to coin_scraper from this repo: https://github.com/oidz1234/CoinScraper
-# also install autoscraper and playsound using pip :)
+# Install autoscraper and playsound using pip :)
+# You'll also need to download a song that you want to play and change the sound variable in this script to be the file location of song
 
 from autoscraper import AutoScraper
 
